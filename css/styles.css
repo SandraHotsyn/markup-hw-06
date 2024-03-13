@@ -374,3 +374,43 @@ img {
 .footer-link {
   margin-bottom: 16px;
 }
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-cont {
+  display: flex;
+  gap: 120px;
+  justify-content: left;
+  align-items: left;
+  /* justify-content: space-between; */
+}
+
+.footer-social-item {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  position: relative;
+}
+
+.footer-icon {
+  fill: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
