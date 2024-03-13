@@ -334,11 +334,7 @@ img {
 .our-team-social {
   display: flex;
   flex-direction: row;
-  /* gap: 16px; */
-  /* align-content: center; */
-  /* align-self: center; */
   justify-content: space-between;
-  /* justify-content: center; */
 }
 
 .portfolio {
@@ -438,6 +434,12 @@ img {
   height: 40px;
   display: inline-flex;
   position: relative;
+  transition: background-color 150ms ease-in-out 150ms;
+}
+
+.footer-social-item:hover,
+.footer-social-item:focus {
+  background-color: #404bbf;
 }
 
 .footer-icon {
