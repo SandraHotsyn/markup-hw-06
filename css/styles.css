@@ -75,6 +75,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-cont {
@@ -142,6 +144,11 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-li {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item {
@@ -166,6 +173,11 @@ img {
   align-items: center;
   height: 600px;
   padding: 188px 0 188px 0;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-flex {
@@ -244,6 +256,9 @@ img {
   position: relative;
   margin-bottom: 8px;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-image:hover {
@@ -300,6 +315,8 @@ img {
 .our-team-ul {
   display: flex;
   gap: 24px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* .our-team-ul:first-child {
@@ -334,7 +351,8 @@ img {
 .our-team-social {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
 }
 
 .portfolio {
@@ -419,6 +437,19 @@ img {
   margin-bottom: 16px;
 }
 
+.social-link {
+  width: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+  border-color: #404bbf;
+}
+
 .footer-cont {
   display: flex;
   gap: 120px;
@@ -428,13 +459,10 @@ img {
 }
 
 .footer-social-item {
-  background-color: #4d5ae5;
-  border-radius: 50%;
   width: 40px;
   height: 40px;
-  display: inline-flex;
   position: relative;
-  transition: background-color 150ms ease-in-out 150ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-item:hover,
@@ -448,4 +476,5 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  fill: #f4f4fd;
 }
