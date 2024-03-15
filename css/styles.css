@@ -31,7 +31,8 @@ ol {
 a {
   text-decoration: none;
   color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a:hover {
@@ -321,9 +322,6 @@ img {
   gap: 24px;
 }
 
-/* .our-team-ul:first-child {
-} */
-
 .our-team-li {
   text-align: center;
   background-color: #ffffff;
@@ -526,13 +524,16 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-icon {
-  fill: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
