@@ -590,6 +590,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
+  padding-top: 72px;
 }
 
 .modal-input {
@@ -611,6 +612,7 @@ img {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  padding-left: 38px;
 }
 
 .modal-label {
@@ -621,4 +623,17 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   padding-bottom: 4px;
+}
+
+.modal-input-wrap {
+  position: relative;
+}
+
+.modal-icon {
+  position: absolute;
+  fill: transparent;
+  stroke: #2e2f42;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
 }
