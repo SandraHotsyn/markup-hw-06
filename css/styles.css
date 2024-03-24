@@ -654,7 +654,7 @@ img {
   border-radius: 4px;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -735,7 +735,6 @@ img {
 
 .modal-text {
   height: 120px;
-  padding-top: 8px;
   resize: none;
   width: 100%;
   font-size: 12px;
