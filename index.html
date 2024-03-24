@@ -472,7 +472,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="button-close" width="8" height="8">
@@ -526,27 +526,27 @@
               </svg>
             </div>
           </div>
-          <div class="modal-input-wrap">
-            <label for="comment" class="modal-label">Comment</label>
+          <div class="modal-coment-wrap">
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              class="modal-input modal-text"
-              name="comment"
-              id="comment"
+              class="modal-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               rows="5"
             ></textarea>
           </div>
-          <div class="modal-input-wrap">
+          <div class="modal-check-wrap">
             <input
               type="checkbox"
-              name="checkbox"
-              id="checkbox"
-              value=""
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
               class="modal-check visually-hidden"
             />
-            <label for="checkbox" class="check-text">
-              <span>
+            <label for="user-privacy" class="check-text">
+              <span class="check-icon-wrap">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
