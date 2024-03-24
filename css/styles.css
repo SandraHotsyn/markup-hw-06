@@ -685,11 +685,11 @@ img {
   border: none;
 }
 
-.modal-close:hover + .button-close {
+.modal-close:hover .button-close {
   fill: #ffffff;
 }
 
-.modal-close:focus + .button-close {
+.modal-close:focus .button-close {
   fill: #ffffff;
 }
 
