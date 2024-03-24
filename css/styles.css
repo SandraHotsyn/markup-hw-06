@@ -539,12 +539,12 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-form {
+.footer-div-form {
   padding-left: 80px;
 }
 .footer-forms {
   display: flex;
-  gap: 4px;
+  gap: 24px;
 }
 
 .footer-form-title {
@@ -553,7 +553,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -564,34 +564,46 @@ img {
   height: 40px;
   background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgdba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-button {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   border-radius: 4px;
   padding: 8px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
+  cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4px;
+  border: none;
 }
 
 .footer-button-icon {
   fill: #ebebf1;
+  margin-left: 16px;
 }
 
 /* modal */
