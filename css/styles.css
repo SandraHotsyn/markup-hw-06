@@ -808,13 +808,16 @@ img {
   align-items: center;
 }
 
+.check-text span {
+  display: inline-flex;
+}
+
 .check-icon-wrap {
   margin-right: 8px;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   position: relative;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
