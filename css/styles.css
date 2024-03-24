@@ -610,6 +610,9 @@ img {
 
 .modal-form {
   align-items: center;
+  justify-content: center;
+  /* align-content: center; */
+  /* text-align: center; */
 }
 
 .modal-overlay {
@@ -849,6 +852,7 @@ img {
 
 .modal-button {
   margin-top: 24px;
+  margin: 0 auto;
   border-radius: 4px;
   padding: 16px;
   min-width: 169px;
