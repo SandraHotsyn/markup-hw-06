@@ -869,5 +869,5 @@ img {
 }
 
 .check-text span {
-  display: inline-flex;
+  display: flex;
 }
