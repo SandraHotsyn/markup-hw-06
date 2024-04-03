@@ -177,7 +177,7 @@ img {
 
 /* HERO */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -192,7 +192,7 @@ img {
   background-size: cover;
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
-}
+} */
 
 .hero-flex {
   display: flex;
@@ -534,14 +534,6 @@ img {
   .portfolio-item {
     width: calc((100% - 48px) / 3);
   }
-
-  .portfolio-subtitle {
-    line-height: 24px;
-  }
-
-  .portfolio-text {
-    line-height: 24px;
-  }
 }
 
 /* FOOTER */
@@ -682,7 +674,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px rgdba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
@@ -1029,7 +1021,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 764px) {
+}
+
+@media screen and (min-width: 1024px) {
   .modal {
     min-height: 584px;
     padding: 72px 24px 24px 24px;
