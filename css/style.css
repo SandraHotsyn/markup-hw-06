@@ -234,10 +234,13 @@ img {
   position: fixed;
   top: 0;
   background-color: #ffffff;
-  width: 105vw;
+  width: 100vw;
   height: 110vh;
   padding: 24px 24px 40px 16px;
   z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .mob-menu-close {
@@ -366,12 +369,6 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   fill: #f4f4fd;
-}
-
-@media screen and (min-width: 768px) {
-  .mob-menu {
-    display: none;
-  }
 }
 
 /*-------------- HERO----------------- */
