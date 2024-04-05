@@ -911,7 +911,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 72px;
+  gap: 72px 24px;
 }
 
 .footer-social-item {
@@ -1058,7 +1058,7 @@ img {
 
   .footer-forms {
     flex-direction: row;
-    /* gap: 24px; */
+
   }
 }
 
